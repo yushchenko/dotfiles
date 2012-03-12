@@ -4,7 +4,7 @@
 # Install Homebrew.
 if [[ ! "$(type -P brew)" ]]; then
   e_header "Installing Homebrew"
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
 fi
 
 # Update Homebrew.
