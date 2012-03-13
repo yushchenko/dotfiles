@@ -1,0 +1,3 @@
+[submodule "emacs/lisp/scss-mode"]
+	path = emacs/lisp/scss-mode
+	url = https://github.com/antonj/scss-mode.git

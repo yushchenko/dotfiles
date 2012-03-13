@@ -48,6 +48,10 @@
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Guardfile$" . ruby-mode))
 
+;; SCSS mode >>>
 
+(add-to-list 'load-path (concat current-dir "lisp/scss-mode"))
+(require 'scss-mode)
+(add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode))
 
 (provide 'programming)
