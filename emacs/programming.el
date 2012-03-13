@@ -43,5 +43,11 @@
 ;; Rainbow mode >>>
 (require 'rainbow-mode)
 
+;; Ruby mode >>>
+
+(add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("Guardfile$" . ruby-mode))
+
+
 
 (provide 'programming)
