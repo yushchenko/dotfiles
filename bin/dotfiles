@@ -141,7 +141,7 @@ else
   # Make sure we have the latest files.
   e_header "Updating dotfiles"
   cd ~/.dotfiles
-  git pull
+  git pull origin master
   git submodule update --init --recursive --quiet
 fi
 
