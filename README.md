@@ -18,3 +18,5 @@ bash -c "$(curl -fsSL https://raw.github.com/yushchenko/dotfiles/master/bin/dotf
 sudo apt-get -qq update && sudo apt-get -qq upgrade && sudo apt-get -qq install curl && echo &&
 bash -c "$(curl -fsSL https://raw.github.com/yushchenko/dotfiles/master/bin/dotfiles)" && source ~/.bashrc
 ```
+
+commit test
