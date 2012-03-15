@@ -1,7 +1,3 @@
-if [[ -d ~/.gem/ruby/1.8/bin ]] ; then
-
-    PATH=~/.gem/ruby/1.8/bin:$PATH
-fi
 
 if [[ -d /Applications/SenchaSDKTools-2.0.0-Beta ]] ; then 
 
@@ -15,3 +11,8 @@ if [[ -d ~/projects/ffx-mobile-web-framework/ ]] ; then
 fi
 
 export PATH
+
+if [[ $USER == 'viushchenko' ]] ; then # we are at Fairfax
+    http_proxy='http://proxynsw-na.ffx.jfh.com.au:8080'
+    export http_proxy
+fi
