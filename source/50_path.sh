@@ -1,8 +1,12 @@
 
-if [[ -d /Applications/SenchaSDKTools-2.0.0-Beta ]] ; then 
+if [[ -d /Applications/SenchaSDKTools-2.0.0-beta3 ]] ; then 
 
-    sencha=/Applications/SenchaSDKTools-2.0.0-Beta
-    PATH=$sencha:$sencha/bin:$sencha/jsbuilder:$PATH
+    # sencha=/Applications/SenchaSDKTools-2.0.0-Beta
+    # PATH=$sencha:$sencha/bin:$sencha/jsbuilder:$PATH
+
+    export PATH=/Applications/SenchaSDKTools-2.0.0-beta3:$PATH
+    export SENCHA_SDK_TOOLS_2_0_0_BETA3="/Applications/SenchaSDKTools-2.0.0-beta3"
+
 fi
 
 if [[ -d ~/projects/ffx-mobile-web-framework/ ]] ; then
