@@ -1,0 +1,8 @@
+--type-set
+coffee=.coffee
+
+--type-set
+sass=.scss
+
+--type-set
+sencha=.coffee,.scss,.html
