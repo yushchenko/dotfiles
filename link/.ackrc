@@ -6,3 +6,6 @@ sass=.scss
 
 --type-set
 sencha=.coffee,.scss,.html
+
+--type-set
+wiki=.md,.markdown
