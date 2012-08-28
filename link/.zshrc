@@ -17,8 +17,10 @@ fi
 
 if [[ -d ~/projects/ffx-mobile-web-framework/ ]] ; then
 
-    PATH=~/projects/ffx-mobile-web-framework/scripts/:$PATH
+    PATH=~/projects/ffx-mobile-web-framework/scripts:$PATH
 fi
+
+PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 export PATH
 
