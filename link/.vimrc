@@ -23,6 +23,19 @@ set hlsearch                    " Higlight search
 
 set scrolloff=3                 " Start scrolling 8 line away from margins
 
+""" Indentation 
+
+set autoindent
+set smartindent
+set smarttab
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+set expandtab
+
+filetype plugin on
+filetype indent on
+
 """ GUI
 
 set guifont=Menlo:h14           " Font & font size
