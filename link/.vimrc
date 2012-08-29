@@ -21,7 +21,7 @@ set hlsearch                    " Higlight search
 
 """ Scrolling
 
-set scrolloff=8                 " Start scrolling 8 line away from margins
+set scrolloff=3                 " Start scrolling 8 line away from margins
 
 """ GUI
 
