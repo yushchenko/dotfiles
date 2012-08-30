@@ -18,6 +18,7 @@ filetype indent on              "
 
 set incsearch                   " Incremental search
 set hlsearch                    " Higlight search
+set ignorecase                  " Ignore case, add \C to search to make case sensitive
 
 """ Scrolling
 
@@ -38,12 +39,21 @@ set expandtab
 set guifont=Menlo:h14           " Font & font size
 set guioptions-=T               " Hiding toolbar
 set guioptions-=r               " Hiding right scroll bar
+set guioptions-=L               " Hiding left scroll bar
+set cursorline                  " Highlighting current line
 
 """ Solarized Color Theme
  
 let g:solarized_termtrans = 1   " Makes Solarized work in iTerm2
 colorscheme solarized           " Solarized colors
 call togglebg#map("<F5>")       " Toggling between ligth/dark scheme
+
+""" Syntastic
+
+let g:syntastic_check_on_open=1
+
+let g:syntastic_error_symbol='✗'
+let g:syntastic_warning_symbol='⚠'
 
 """ Other
 
