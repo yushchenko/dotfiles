@@ -1,15 +1,18 @@
-set nocompatible
+
+set nocompatible                " No need to be compitible with Vi
 
 """ General Config 
 
-let mapleader = ","
+let mapleader = ","             " Setting leader key to ,
 
-call pathogen#infect()
+call pathogen#infect()          " Initializing Pathogen
 
 set hidden                      " Allow background buffers
 
 syntax on                       " Syntax coloring
-set nocompatible
+
+filetype plugin on              "
+filetype indent on              "
 
 """ Search Settings
 
@@ -30,21 +33,19 @@ set softtabstop=2
 set tabstop=2
 set expandtab
 
-filetype plugin on
-filetype indent on
-
 """ GUI
 
 set guifont=Menlo:h14           " Font & font size
-set go-=T                       " Hiding toolbar
-set guioptions-=r               " Hiding scroll bar
+set guioptions-=T               " Hiding toolbar
+set guioptions-=r               " Hiding right scroll bar
 
 """ Solarized Color Theme
  
-let g:solarized_termtrans = 1
-colorscheme solarized
-call togglebg#map("<F5>")
+let g:solarized_termtrans = 1   " Makes Solarized work in iTerm2
+colorscheme solarized           " Solarized colors
+call togglebg#map("<F5>")       " Toggling between ligth/dark scheme
 
 """ Other
 
 set ruler                       " Show cursor's position
+set visualbell                  " Suppress beeping 
