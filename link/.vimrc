@@ -19,6 +19,7 @@ filetype indent on              "
 set incsearch                   " Incremental search
 set hlsearch                    " Higlight search
 set ignorecase                  " Ignore case, add \C to search to make case sensitive
+set smartcase
 
 """ Scrolling
 
