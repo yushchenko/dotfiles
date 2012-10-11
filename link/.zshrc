@@ -25,8 +25,10 @@ PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 export PATH
 
 if [[ $USER == 'viushchenko' ]] ; then # we are at Fairfax
-    http_proxy='http://proxynsw-na.ffx.jfh.com.au:8080'
+    http_proxy='http://proxy.int.f2.com.au:8080'
+    https_proxy='http://proxy.int.f2.com.au:8080'
     export http_proxy
+    export https_proxy
 fi
 
 # rbenv
