@@ -43,3 +43,6 @@
 [submodule "vim/bundle/svg.vim"]
 	path = vim/bundle/svg.vim
 	url = https://github.com/vim-scripts/svg.vim.git
+[submodule "vim/bundle/lusty"]
+	path = vim/bundle/lusty
+	url = https://github.com/sjbach/lusty.git
