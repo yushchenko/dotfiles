@@ -56,6 +56,11 @@ let g:syntastic_check_on_open=1
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 
+""" Lusty
+
+map <leader>f :LustyFilesystemExplorer<CR>
+map <leader>b :LustyBufferExplorer<CR>
+
 """ Other
 
 set ruler                       " Show cursor's position
