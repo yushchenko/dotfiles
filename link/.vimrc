@@ -60,6 +60,7 @@ let g:syntastic_warning_symbol='⚠'
 
 map <leader>f :LustyFilesystemExplorer<CR>
 map <leader>b :LustyBufferExplorer<CR>
+map <leader>g :LustyBufferGrep<CR>
 
 """ Other
 
