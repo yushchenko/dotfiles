@@ -20,7 +20,7 @@ if [[ -d ~/projects/ffx-mobile-web-framework/ ]] ; then
     PATH=~/projects/ffx-mobile-web-framework/scripts:$PATH
 fi
 
-PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
+PATH=~/.dotfiles/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 
 export PATH
 

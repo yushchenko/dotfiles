@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+
+var file = '/Users/vyushchenko/Dropbox/notes/Dump.txt',
+    msg = process.argv.slice(2).join(' '),
+    dump = fs.readFileSync(file, 'utf8'),
+    now = new Date(),
+    timestamp = now.getHours() + ':' +  now.getMinutes();
+
+dump = timestamp + ' ' + msg + '\n\n' + dump;
+
+fs.writeFileSync(file, dump, 'utf8');
