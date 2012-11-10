@@ -2,11 +2,23 @@
 
 var fs = require('fs');
 
+require('date-utils');
+
+var msg = process.argv.slice(2).join(' ');
+
 var file = '/Users/vyushchenko/Dropbox/notes/Dump.txt',
-    msg = process.argv.slice(2).join(' '),
-    dump = fs.readFileSync(file, 'utf8'),
-    now = new Date(),
-    timestamp = now.getHours() + ':' +  now.getMinutes();
+    dump = fs.readFileSync(file, 'utf8');
+
+var dt = new Date(),
+    timestamp = dt.toFormat('HH24:MI');
+
+var yesterday = Date.yesterday(),
+    dayHeader = '# ' + yesterday.toFormat('D MMM YYYY'),
+    isDayHeaderAdded = (new RegExp(dayHeader, 'm')).test(dump);
+
+if (!isDayHeaderAdded) {
+  dump = dayHeader + '\n\n' + dump;
+}
 
 dump = timestamp + ' ' + msg + '\n\n' + dump;
 

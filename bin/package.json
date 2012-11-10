@@ -1,0 +1,8 @@
+{
+  "name": "utils",
+  "version": "0.1.0",
+  
+  "dependencies": {
+    "date-utils": ">= 1.2.12"
+  }
+}
