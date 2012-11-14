@@ -21,6 +21,6 @@ if (!isDayHeaderAdded) {
   dump = dayHeader + '\n\n' + dump;
 }
 
-dump = timestamp + ' ' + msg + '\n\n' + dump;
+dump = timestamp + ' ' + msg + '\n' + dump;
 
 fs.writeFileSync(file, dump, 'utf8');
