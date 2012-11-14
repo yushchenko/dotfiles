@@ -1,9 +1,3 @@
-[submodule "emacs/lisp/scss-mode"]
-	path = emacs/lisp/scss-mode
-	url = https://github.com/antonj/scss-mode.git
-[submodule "emacs/lisp/coffee-mode"]
-	path = emacs/lisp/coffee-mode
-	url = https://github.com/defunkt/coffee-mode.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
