@@ -62,6 +62,12 @@ map <leader>f :LustyFilesystemExplorer<CR>
 map <leader>b :LustyBufferExplorer<CR>
 map <leader>g :LustyBufferGrep<CR>
 
+""" VimWiki
+
+let g:vimwiki_list = [{'path': '~/Dropbox/wiki/', 
+                       \ 'syntax': 'markdown', 
+                       \ 'ext': '.md'}]
+
 """ Other
 
 set ruler                       " Show cursor's position
