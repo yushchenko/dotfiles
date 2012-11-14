@@ -68,7 +68,7 @@ map <leader>g :LustyBufferGrep<CR>
 
 let g:vimwiki_list = [{'path': '~/Dropbox/wiki/', 
                        \ 'syntax': 'markdown', 
-                       \ 'ext': '.md'}]
+                       \ 'ext': '.txt'}]
 
 """ Other
 
