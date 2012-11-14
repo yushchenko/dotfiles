@@ -37,3 +37,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 alias gd='git diff'
+
+# utils
+alias d=dmp
+alias vd="head ~/Dropbox/notes/Dump.txt"
