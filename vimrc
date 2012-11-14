@@ -14,6 +14,8 @@ syntax on                       " Syntax coloring
 filetype plugin on              "
 filetype indent on              "
 
+set directory=$HOME/tmp/vim     " All *.swp files in one place     
+
 """ Search Settings
 
 set incsearch                   " Incremental search
