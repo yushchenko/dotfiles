@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
-var fs = require('fs');
+var fs = require('fs'),
+    path = require('path');
 
 require('date-utils');
 
 var msg = process.argv.slice(2).join(' ');
 
-var file = '/Users/vyushchenko/Dropbox/notes/Dump.txt',
+var file = path.join(process.env.HOME, 'Dropbox/notes/Dump.txt'),
     dump = fs.readFileSync(file, 'utf8');
 
 var dt = new Date(),
