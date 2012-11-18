@@ -7,7 +7,7 @@ require('date-utils');
 
 var msg = process.argv.slice(2).join(' ');
 
-var file = path.join(process.env.HOME, 'Dropbox/notes/Dump.txt'),
+var file = path.join(process.env.HOME, 'Dropbox/wiki/Dump.txt'),
     dump = fs.readFileSync(file, 'utf8');
 
 var dt = new Date(),
@@ -18,7 +18,7 @@ var yesterday = Date.yesterday(),
     isDayHeaderAdded = (new RegExp(dayHeader, 'm')).test(dump);
 
 if (!isDayHeaderAdded) {
-  dump = dayHeader + '\n\n' + dump;
+  dump = '\n' + dayHeader + '\n\n' + dump;
 }
 
 dump = timestamp + ' ' + msg + '\n' + dump;
