@@ -40,4 +40,4 @@ alias gd='git diff'
 
 # utils
 alias d=dmp
-alias vd="head ~/Dropbox/notes/Dump.txt"
+alias vd="head ~/Dropbox/wiki/Dump.txt"
