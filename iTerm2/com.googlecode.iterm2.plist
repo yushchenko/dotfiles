@@ -502,49 +502,15 @@
 	<key>NSNavLastRootDirectory</key>
 	<string>~/tmp/solarized/iterm2-colors-solarized</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{1694, 400}</string>
+	<string>{832, 556}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
-	<key>NSToolbar Configuration Terminal Toolbar</key>
-	<dict>
-		<key>TB Default Item Identifiers</key>
-		<array>
-			<string>New</string>
-			<string>Info</string>
-			<string>Close</string>
-			<string>Command</string>
-			<string>Profiles</string>
-		</array>
-		<key>TB Display Mode</key>
-		<integer>1</integer>
-		<key>TB Icon Size Mode</key>
-		<integer>1</integer>
-		<key>TB Is Shown</key>
-		<integer>0</integer>
-		<key>TB Item Identifiers</key>
-		<array>
-			<string>New</string>
-			<string>Info</string>
-			<string>NSToolbarSeparatorItem</string>
-			<string>NSToolbarCustomizeToolbarItem</string>
-			<string>Close</string>
-			<string>NSToolbarSeparatorItem</string>
-			<string>Command</string>
-			<string>Profiles</string>
-		</array>
-		<key>TB Size Mode</key>
-		<integer>1</integer>
-		<key>TB Visibility Priority Values</key>
-		<dict/>
-	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>922 544 924 485 0 0 2560 1418 </string>
+	<string>486 317 924 485 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>855 40 1281 746 0 0 2560 1418 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>398 183 665 426 0 0 2560 1418 </string>
+	<string>1207 20 665 451 0 0 1920 1178 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1984,10 +1950,8 @@
 			<string>/Users/vyushchenko</string>
 		</dict>
 	</array>
-	<key>NoSyncNeverRemindPrefsChangesCopy</key>
-	<true/>
 	<key>OnlyWhenMoreTabs</key>
-	<true/>
+	<false/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
@@ -2034,9 +1998,9 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/viushchenko/.dotfiles/iTerm2</string>
+	<string>/Users/vyushchenko/.dotfiles/iTerm2</string>
 	<key>PromptOnQuit</key>
-	<true/>
+	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<false/>
 	<key>RightCommand</key>
@@ -2050,7 +2014,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2012-08-27T22:32:18Z</date>
+	<date>2013-01-11T22:16:37Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>

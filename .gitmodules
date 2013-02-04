@@ -46,3 +46,6 @@
 [submodule "vim/bundle/vimwiki"]
 	path = vim/bundle/vimwiki
 	url = https://github.com/vim-scripts/vimwiki
+[submodule "vim/bundle/haskellmode-vim"]
+	path = vim/bundle/haskellmode-vim
+	url = https://github.com/lukerandall/haskellmode-vim.git

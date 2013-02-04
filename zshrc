@@ -21,6 +21,7 @@ if [[ -d ~/projects/ffx-mobile-web-framework/ ]] ; then
 fi
 
 PATH=~/.dotfiles/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
+PATH=~/.cabal/bin:$PATH
 
 export PATH
 
@@ -40,4 +41,4 @@ alias gd='git diff'
 
 # utils
 alias d=dmp
-alias vd="head ~/Dropbox/notes/Dump.txt"
+alias vd="head ~/Dropbox/wiki/Dump.txt"
