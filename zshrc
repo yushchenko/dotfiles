@@ -22,6 +22,7 @@ fi
 
 PATH=~/.dotfiles/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 PATH=~/.cabal/bin:$PATH
+PATH=~/bin:$PATH
 
 export PATH
 
@@ -34,8 +35,8 @@ fi
 
 # rbenv
 # https://github.com/sstephenson/rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 
 alias gd='git diff'
 
