@@ -70,6 +70,23 @@ let g:vimwiki_list = [{'path': '~/Dropbox/wiki/',
                        \ 'syntax': 'markdown', 
                        \ 'ext': '.txt'}]
 
+""" writing mode: http://www.drbunsen.org/writing-in-vim/
+
+func! WordProcessorMode() 
+    setlocal formatoptions=1 
+    setlocal noexpandtab 
+    setlocal spell spelllang=en_us 
+    " wget http://www.gutenberg.org/dirs/etext02/mthes10.zip - get thesaurus
+    set thesaurus+=~/.vim/thesaurus/mthesaur.txt
+    set complete+=s
+    setlocal textwidth=60   " line width
+    setlocal fo+=a          " turns on automatic formating
+    set formatprg=par
+    setlocal wrap 
+    setlocal linebreak 
+endfu 
+com! WP call WordProcessorMode()
+
 """ Other
 
 set ruler                       " Show cursor's position

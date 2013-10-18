@@ -9,3 +9,6 @@ sencha=.coffee,.scss,.html
 
 --type-set
 wiki=.md,.markdown
+
+--type-set
+yesod=.hs,.hamlet,.lucius,.md,.cabal
