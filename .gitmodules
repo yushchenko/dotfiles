@@ -52,3 +52,6 @@
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "vim/bundle/html-template-syntax"]
+	path = vim/bundle/html-template-syntax
+	url = https://github.com/pbrisbin/html-template-syntax.git
