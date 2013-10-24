@@ -39,11 +39,13 @@ set expandtab
 
 """ GUI
 
-set guifont=Menlo:h14           " Font & font size
-set guioptions-=T               " Hiding toolbar
-set guioptions-=r               " Hiding right scroll bar
-set guioptions-=L               " Hiding left scroll bar
-set cursorline                  " Highlighting current line
+" https://github.com/Lokaltog/vim-powerline.git - fonts
+
+set guifont=Inconsolata_for_Powerline:h16           " Font & font size
+set guioptions-=T                                   " Hiding toolbar
+set guioptions-=r                                   " Hiding right scroll bar
+set guioptions-=L                                   " Hiding left scroll bar
+set cursorline                                      " Highlighting current line
 
 """ Solarized Color Theme
  
@@ -91,3 +93,10 @@ com! WP call WordProcessorMode()
 
 set ruler                       " Show cursor's position
 set visualbell                  " Suppress beeping 
+
+""" Airline
+
+set laststatus=2                " fixes the bug
+let g:airline_them='solarized'
+let g:airline_powerline_fonts = 1
+
