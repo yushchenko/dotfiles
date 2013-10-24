@@ -89,14 +89,19 @@ func! WordProcessorMode()
 endfu 
 com! WP call WordProcessorMode()
 
-""" Other
-
-set ruler                       " Show cursor's position
-set visualbell                  " Suppress beeping 
-
 """ Airline
 
 set laststatus=2                " fixes the bug
 let g:airline_them='solarized'
 let g:airline_powerline_fonts = 1
+
+""" Haskell Mode
+
+let g:haddock_browser = 'open'
+let g:haddock_browser_callformat = '%s %s'
+
+""" Other
+
+set ruler                       " Show cursor's position
+set visualbell                  " Suppress beeping 
 
