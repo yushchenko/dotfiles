@@ -16,6 +16,13 @@ filetype indent on              "
 
 set directory=$HOME/tmp/vim     " All *.swp files in one place     
 
+""" Enabling mouse in console
+""" http://usevim.com/2012/05/16/mouse/
+
+set ttyfast
+set mouse=a
+set ttymouse=xterm2
+
 """ Search Settings
 
 set incsearch                   " Incremental search
