@@ -67,11 +67,13 @@ let g:syntastic_check_on_open=1
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 
-""" Lusty
+""" CtrlP
 
-map <leader>f :LustyFilesystemExplorer<CR>
-map <leader>b :LustyBufferExplorer<CR>
-map <leader>g :LustyBufferGrep<CR>
+map <leader>f :CtrlP<CR>
+map <leader>b :CtrlPBuffer<CR>
+map <leader>r :CtrlPMRU<CR>
+
+set wildignore+=*.o,*.hi,*.pyc,*/node_modules/*
 
 """ VimWiki
 
